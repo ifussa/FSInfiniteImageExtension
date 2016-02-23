@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C644A8571C7CA65300B0D0A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C644A84D1C7CA65300B0D0A3 /* AppDelegate.m */; };
+		C644A8581C7CA65300B0D0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C644A84E1C7CA65300B0D0A3 /* Assets.xcassets */; };
+		C644A8591C7CA65300B0D0A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C644A84F1C7CA65300B0D0A3 /* LaunchScreen.storyboard */; };
+		C644A85A1C7CA65300B0D0A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C644A8511C7CA65300B0D0A3 /* Main.storyboard */; };
+		C644A85B1C7CA65300B0D0A3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C644A8531C7CA65300B0D0A3 /* Info.plist */; };
+		C644A85C1C7CA65300B0D0A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C644A8541C7CA65300B0D0A3 /* main.m */; };
+		C644A85D1C7CA65300B0D0A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C644A8561C7CA65300B0D0A3 /* ViewController.m */; };
+		C644A8621C7CA65F00B0D0A3 /* FSInfiniteImageView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C644A85F1C7CA65F00B0D0A3 /* FSInfiniteImageView.bundle */; };
+		C644A8631C7CA65F00B0D0A3 /* FSInfiniteImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C644A8611C7CA65F00B0D0A3 /* FSInfiniteImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C644A84C1C7CA65300B0D0A3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C644A84D1C7CA65300B0D0A3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C644A84E1C7CA65300B0D0A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C644A8501C7CA65300B0D0A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C644A8521C7CA65300B0D0A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C644A8531C7CA65300B0D0A3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C644A8541C7CA65300B0D0A3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C644A8551C7CA65300B0D0A3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C644A8561C7CA65300B0D0A3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C644A85F1C7CA65F00B0D0A3 /* FSInfiniteImageView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FSInfiniteImageView.bundle; sourceTree = "<group>"; };
+		C644A8601C7CA65F00B0D0A3 /* FSInfiniteImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSInfiniteImageView.h; sourceTree = "<group>"; };
+		C644A8611C7CA65F00B0D0A3 /* FSInfiniteImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSInfiniteImageView.m; sourceTree = "<group>"; };
+		C699E93D1C7C2B1C00257664 /* FSInfiniteImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSInfiniteImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C699E93A1C7C2B1C00257664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C644A84B1C7CA65300B0D0A3 /* FSInfiniteImageView-demo */ = {
+			isa = PBXGroup;
+			children = (
+				C644A85E1C7CA65F00B0D0A3 /* FSInfiniteImageView */,
+				C644A84C1C7CA65300B0D0A3 /* AppDelegate.h */,
+				C644A84D1C7CA65300B0D0A3 /* AppDelegate.m */,
+				C644A84E1C7CA65300B0D0A3 /* Assets.xcassets */,
+				C644A84F1C7CA65300B0D0A3 /* LaunchScreen.storyboard */,
+				C644A8511C7CA65300B0D0A3 /* Main.storyboard */,
+				C644A8531C7CA65300B0D0A3 /* Info.plist */,
+				C644A8541C7CA65300B0D0A3 /* main.m */,
+				C644A8551C7CA65300B0D0A3 /* ViewController.h */,
+				C644A8561C7CA65300B0D0A3 /* ViewController.m */,
+			);
+			path = "FSInfiniteImageView-demo";
+			sourceTree = "<group>";
+		};
+		C644A85E1C7CA65F00B0D0A3 /* FSInfiniteImageView */ = {
+			isa = PBXGroup;
+			children = (
+				C644A85F1C7CA65F00B0D0A3 /* FSInfiniteImageView.bundle */,
+				C644A8601C7CA65F00B0D0A3 /* FSInfiniteImageView.h */,
+				C644A8611C7CA65F00B0D0A3 /* FSInfiniteImageView.m */,
+			);
+			path = FSInfiniteImageView;
+			sourceTree = SOURCE_ROOT;
+		};
+		C699E9341C7C2B1C00257664 = {
+			isa = PBXGroup;
+			children = (
+				C644A84B1C7CA65300B0D0A3 /* FSInfiniteImageView-demo */,
+				C699E93E1C7C2B1C00257664 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C699E93E1C7C2B1C00257664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C699E93D1C7C2B1C00257664 /* FSInfiniteImageView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C699E93C1C7C2B1C00257664 /* FSInfiniteImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C699E9541C7C2B1C00257664 /* Build configuration list for PBXNativeTarget "FSInfiniteImageView" */;
+			buildPhases = (
+				C699E9391C7C2B1C00257664 /* Sources */,
+				C699E93A1C7C2B1C00257664 /* Frameworks */,
+				C699E93B1C7C2B1C00257664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSInfiniteImageView;
+			productName = "图片轮播器";
+			productReference = C699E93D1C7C2B1C00257664 /* FSInfiniteImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C699E9351C7C2B1C00257664 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = fussa;
+				TargetAttributes = {
+					C699E93C1C7C2B1C00257664 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 63R2Q4F9XX;
+					};
+				};
+			};
+			buildConfigurationList = C699E9381C7C2B1C00257664 /* Build configuration list for PBXProject "FSInfiniteImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C699E9341C7C2B1C00257664;
+			productRefGroup = C699E93E1C7C2B1C00257664 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C699E93C1C7C2B1C00257664 /* FSInfiniteImageView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C699E93B1C7C2B1C00257664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C644A85B1C7CA65300B0D0A3 /* Info.plist in Resources */,
+				C644A8621C7CA65F00B0D0A3 /* FSInfiniteImageView.bundle in Resources */,
+				C644A85A1C7CA65300B0D0A3 /* Main.storyboard in Resources */,
+				C644A8581C7CA65300B0D0A3 /* Assets.xcassets in Resources */,
+				C644A8591C7CA65300B0D0A3 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C699E9391C7C2B1C00257664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C644A85D1C7CA65300B0D0A3 /* ViewController.m in Sources */,
+				C644A8631C7CA65F00B0D0A3 /* FSInfiniteImageView.m in Sources */,
+				C644A85C1C7CA65300B0D0A3 /* main.m in Sources */,
+				C644A8571C7CA65300B0D0A3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C644A84F1C7CA65300B0D0A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C644A8501C7CA65300B0D0A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C644A8511C7CA65300B0D0A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C644A8521C7CA65300B0D0A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C699E9521C7C2B1C00257664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C699E9531C7C2B1C00257664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C699E9551C7C2B1C00257664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/FSInfiniteImageView-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fussa.-----";
+				PRODUCT_NAME = FSInfiniteImageView;
+			};
+			name = Debug;
+		};
+		C699E9561C7C2B1C00257664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/FSInfiniteImageView-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fussa.-----";
+				PRODUCT_NAME = FSInfiniteImageView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C699E9381C7C2B1C00257664 /* Build configuration list for PBXProject "FSInfiniteImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C699E9521C7C2B1C00257664 /* Debug */,
+				C699E9531C7C2B1C00257664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C699E9541C7C2B1C00257664 /* Build configuration list for PBXNativeTarget "FSInfiniteImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C699E9551C7C2B1C00257664 /* Debug */,
+				C699E9561C7C2B1C00257664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C699E9351C7C2B1C00257664 /* Project object */;
+}
