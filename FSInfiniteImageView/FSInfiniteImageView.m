@@ -90,8 +90,8 @@
 - (void)setupPageControl {
 	
 	UIPageControl *pageControl = [[UIPageControl alloc] init];
-	self.pageImage = [UIImage imageNamed:@"FSInfiniteScrollView_other"];
-	self.currentPageImage = [UIImage imageNamed:@"FSInfiniteScrollView_current"];
+	self.pageImage = [UIImage imageNamed:@"FSInfiniteImageView.bundle/FSInfiniteScrollView_other"];
+	self.currentPageImage = [UIImage imageNamed:@"FSInfiniteImageView.bundle/FSInfiniteScrollView_current"];
 	[pageControl setValue:_pageImage forKeyPath:@"_pageImage"];
 	[pageControl setValue:_currentPageImage forKeyPath:@"_currentPageImage"];
 	self.pageControl = pageControl;
@@ -205,7 +205,6 @@
  *  下一页
  */
 - (void)nextPage {
-
 	[UIView animateWithDuration:self.duringTime animations:^{
 		if (self.direction == FSInfiniteScrollViewDirectionTypeHorizontal) {
 			[self.scrollView setContentOffset:CGPointMake(self.scrollView.contentOffset.x + self.scrollView.frame.size.width, 0)];;
@@ -214,7 +213,6 @@
 		}
 	}];
 	[self updateContent];
-	
 }
 /**
  *  点击了scrollView上面的图片会调用此方法

@@ -27,10 +27,11 @@
 								  [UIImage imageNamed:@"FSInfiniteScrollView_img_01"],
 								  [UIImage imageNamed:@"FSInfiniteScrollView_img_02"],
 								  [UIImage imageNamed:@"FSInfiniteScrollView_img_03"],
+								  [UIImage imageNamed:@"FSInfiniteScrollView_img_04"],
 								  [UIImage imageNamed:@"FSInfiniteScrollView_img_05"]
 								  ];
 	infiniteScrollView.delegate = self;
-	infiniteScrollView.direction = FSInfiniteScrollViewDirectionTypeVertical;
+	infiniteScrollView.direction = FSInfiniteScrollViewDirectionTypeHorizontal;
 	infiniteScrollView.delayTime = 3.0;
 	infiniteScrollView.startDelayTime = 1.0;
 	infiniteScrollView.duringTime = 1.0;
